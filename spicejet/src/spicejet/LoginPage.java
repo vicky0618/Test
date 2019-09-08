@@ -30,7 +30,7 @@ public class LoginPage {
       lastName.sendKeys("Singh");
       
       WebElement mobileNo = driver.findElement(By.xpath("//input[@id = 'CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINTLMOBILENUMBER']"));
-      mobileNo.sendKeys("9006543703");
+      mobileNo.sendKeys("9006877703");
       
       WebElement password = driver.findElement(By.xpath("//input[@id = 'CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword']"));
       password.sendKeys("vikash@123");
@@ -39,7 +39,7 @@ public class LoginPage {
       confirmPassword.sendKeys("vikash@123");
       
       WebElement emaiId = driver.findElement(By.xpath("//input[@id = 'CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']"));
-      emaiId.sendKeys("vikash694@gmail.com");
+      emaiId.sendKeys("vikram@gmail.com");
       
       WebElement dateOfBirth = driver.findElement(By.xpath("//input[@id = 'CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB']"));
       dateOfBirth.click();
